@@ -1,4 +1,11 @@
 Use rsync and inotify to sync files and directories from one host to other hosts
+
 Include 2 files:
-* sync.sh
-* do_sync.py
+sync.sh
+do_sync.py
+
+RUN:
+0. Make sure source host can ssh into destination hosts without password
+1. Do some setting in file do_sync.py
+2. run sync.sh
+
